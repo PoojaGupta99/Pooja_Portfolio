@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pooja Gupta | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <a href="#" class="logo">Portfolio</a>
+    <nav class="navbar">
+      <a href="#home" style="--i:1" class="active" aria-current="page">Home</a>
+      <a href="#about" style="--i:2">About</a>
+      <a href="#services" style="--i:3">Services</a>
+      <a href="#skills" style="--i:4">Skills</a>
+      <a href="#portfolio" style="--i:5">Portfolio</a>
+      <a href="#contact" style="--i:6">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Home -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <h3>Hello, It's Me</h3>
+      <h1>Pooja Gupta</h1>
+      <h3>And I'm a <span class="text"></span></h3>
+      <p>I’m a Web Developer who specializes in building fast, interactive, and scalable web applications. My expertise is in website design and frontend development.</p>
+      
+      <div class="home-sci">
+        <a href="https://github.com/PoojaGupta99" target="_blank" style="--i:1"><i class="bx bxl-github"></i></a>
+        <a href="https://www.instagram.com/twilight.haze08/" target="_blank" style="--i:2"><i class="bx bxl-instagram"></i></a>
+        <a href="https://x.com/POOJAGupta239" target="_blank" style="--i:3"><i class="bx bxl-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/kmpoojagupta/" target="_blank" style="--i:4"><i class="bx bxl-linkedin"></i></a>
+      </div> 
+      <a href="#about" class="btn-box">More About Me</a>
+    </div>
+    <div class="home-img">
+      <img src="WhatsApp Image 2025-09-03 at 16.30.14_365eca35.jpg" alt="Pooja Gupta working on a laptop">
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="WhatsApp Image 2025-09-03 at 16.30.14_365eca35.jpg" alt="Pooja Gupta working on a laptop">
+    </div>
+    <div class="about-text">
+      <h2>About <span>Me</span></h2>
+      <h4>Frontend & Web Developer</h4>
+      <p>Hi, I’m Pooja Gupta, a frontend & web developer who enjoys building elegant, user-friendly, and responsive websites. My expertise lies in HTML, CSS, JavaScript, and modern frameworks like React. I believe in writing clean, efficient code and designing interfaces that are visually appealing and functional. Beyond coding, I enjoy exploring UI/UX concepts and bringing creative ideas to life on the web.</p>
+      <a href="#services" class="btn-box">My Services</a>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="services" id="services">
+    <div class="container">
+      <h1 class="sub-title">My <span>Services</span></h1>
+      <div class="service-list">
+        <div>
+          <i class="bx bx-code" style="color:#0ef"></i>
+          <h2>Web Development</h2>
+          <p>Creating responsive and modern websites with clean, efficient code.</p>
+          <a href="javascript:void(0)" class="read" onclick="openModal('webDev')">Learn More</a>
+        </div>
+        <div>
+          <i class="bx bx-palette" style="color:#0ef"></i>
+          <h2>UI/UX Design</h2>
+          <p>Designing visually stunning and user-friendly interfaces.</p>
+          <a href="javascript:void(0)" class="read" onclick="openModal('uiux')">Learn More</a>
+        </div>
+        <div>
+          <i class="bx bx-mobile-alt" style="color:#0ef"></i>
+          <h2>Responsive Design</h2>
+          <p>Ensuring websites look great across all devices.</p>
+          <a href="javascript:void(0)" class="read" onclick="openModal('responsive')">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modal -->
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <h2 id="modalTitle"></h2>
+      <p id="modalText"></p>
+    </div>
+  </div>
+
+  <!-- Skills -->
+  <section class="skills" id="skills">
+    <h1 class="sub-title">My <span>Skills</span></h1>
+    <div class="container">
+      <h1 class="heading1">Technical Skills</h1>
+      <div class="technical-bars">
+        <div class="bar">
+          <div class="info"><span>HTML</span></div>
+          <div class="progress-line html" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"><span></span></div>
+        </div>
+        <div class="bar">
+          <div class="info"><span>CSS</span></div>
+          <div class="progress-line css" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span></span></div>
+        </div>
+        <div class="bar">
+          <div class="info"><span>JavaScript</span></div>
+          <div class="progress-line javascript" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"><span></span></div>
+        </div>
+        <div class="bar">
+          <div class="info"><span>Java</span></div>
+          <div class="progress-line java" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"><span></span></div>
+        </div>
+        <div class="bar">
+          <div class="info"><span>React</span></div>
+          <div class="progress-line react" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"><span></span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section class="portfolio" id="portfolio">
+  <div class="main-text">
+    <h2>Latest <span>Projects</span></h2>
+    <div class="portfolio-content">
+      <div class="row">
+        <img src="Screenshot 2025-09-05 013130.png" alt="Landing Page Project">
+        <div class="layer">
+          <h5>Netflix-Website</h5>
+          <p>A movie streaming app clone with dynamic content and responsive UI.</p>
+          <a href="https://stupendous-fenglisu-8870e5.netlify.app/" target="_blank">
+            <i class="bx bx-link-external"></i>
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <img src="Screenshot 2025-09-05 013056.png" alt="YouTube Clone Project">
+        <div class="layer">
+          <h5>Youtube-Clone</h5>
+          <p>A video streaming platform clone</p>
+          <a href="https://youtube-clone-w.netlify.app/" target="_blank">
+            <i class="bx bx-link-external"></i>
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <img src="Screenshot 2025-09-05 013115.png" alt="Ecommerce Project">
+        <div class="layer">
+          <h5>Amazon-Ecommerce</h5>
+          <p>An ecommerce web app clone with product listings and cart features.</p>
+          <a href="https://ecommerce-amazon-web.netlify.app/" target="_blank">
+            <i class="bx bx-link-external"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <div class="contact-text">
+      <h2>Contact <span>Me</span></h2>
+      <h4>Let's Work Together</h4>
+      <p>Feel free to get in touch for projects or collaborations.</p>
+      <ul class="contact-list">
+        <li><i class="bx bxs-send"></i> poojigupta71@gmail.com</li>
+        <li><i class="bx bxs-phone"></i> +91 9956115776</li>
+      </ul>
+      <div class="contact-icons">
+         <a href="https://github.com/PoojaGupta99" target="_blank" style="--i:1"><i class="bx bxl-github"></i></a>
+        <a href="https://www.instagram.com/twilight.haze08/" target="_blank"><i class="bx bxl-instagram"></i></a>
+        <a href="https://x.com/POOJAGupta239" target="_blank"><i class="bx bxl-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/kmpoojagupta/" target="_blank"><i class="bx bxl-linkedin"></i></a>
+      </div>
+    </div>
+    <div class="contact-form">
+      <form action="https://formspree.io/f/mandlljq" method="post">
+        <input type="text" name="name" placeholder="Enter Your Name" required>
+        <input type="email" name="email" placeholder="Enter Your Email" required>
+        <textarea name="message" placeholder="Enter Your Message" required></textarea>
+        <input type="submit" value="Send" class="send">
+      </form>
+    </div>
+  </section>
+
+  <!-- JS -->
+  <script src="main.js"></script>
+</body>
+</html>
